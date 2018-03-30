@@ -1,0 +1,13 @@
+import java.util.Arrays;
+public class arraysortascendingorder{
+	    public static void main(String[] args)
+	    {
+	        //  This array contains 8 elements
+	        float[] arr = {(float)13.3,(float) 7.4, (float) 6.5, (float)45.4,(float) 21,(float) 9,(float) 101, (float)102};
+
+	        Arrays.sort(arr);
+
+	        System.out.printf("Modified arr[] : %s",
+	                          Arrays.toString(arr));
+	    }
+	}
